@@ -1,0 +1,17 @@
+import datetime as dt  # dt as alias
+today = dt.date.today()
+print(today)
+day = dt.date(2022,7,5)
+print(f"{day:%A, %B %d, %Y}") #https://strftime.org/
+time = dt.time(12,30,45)
+print(time)
+right_now = dt.datetime.now()
+print(right_now)
+print(f'{right_now:%A, %B %d at %I:%M %p}')
+print(day-today)
+print(type(day-today))
+#general form datetime.timedelta(days=, seconds=, microseconds=, milliseconds=, minutes=,hours=, weeks=)
+duration = dt.timedelta(days=100)
+print(right_now + duration)
+UtcNow = dt.datetime.utcnow()
+print(UtcNow)
