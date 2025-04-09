@@ -1,1 +1,1 @@
-This a beginner friedly course before we get started with problem solving
+This a beginner-friendly course before we get started with problem solving
